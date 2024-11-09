@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80F8841ED3DD5459CC53FA6D /* Pods_Freedom_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FAAD21C0C8167B9599D9AD /* Pods_Freedom_Project.framework */; };
+		A9E1B720E0CCA46F6C092B2F /* Pods_Freedom_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C070DA0B8D5AB6BCDD0F4DE /* Pods_Freedom_ProjectTests.framework */; };
+		E758E13F1ED6114A5DE603F5 /* Pods_Freedom_Project_Freedom_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A67E5E18015971C64BA9D6 /* Pods_Freedom_Project_Freedom_ProjectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		054B3F362CDF7B22006D2675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054B3F172CDF7B1F006D2675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054B3F1E2CDF7B1F006D2675;
+			remoteInfo = "Freedom Project";
+		};
+		054B3F402CDF7B22006D2675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 054B3F172CDF7B1F006D2675 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 054B3F1E2CDF7B1F006D2675;
+			remoteInfo = "Freedom Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054B3F1F2CDF7B1F006D2675 /* Freedom Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Freedom Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		054B3F352CDF7B22006D2675 /* Freedom ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Freedom ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		054B3F3F2CDF7B22006D2675 /* Freedom ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Freedom ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FAAD21C0C8167B9599D9AD /* Pods_Freedom_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freedom_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F47A08876AA437C51F74FE6 /* Pods-Freedom Project-Freedom ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freedom Project-Freedom ProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Freedom Project-Freedom ProjectUITests/Pods-Freedom Project-Freedom ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CBECE7F4A2D153C69C7535C /* Pods-Freedom ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freedom ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Freedom ProjectTests/Pods-Freedom ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7182D074860A0D9BDCEC34CA /* Pods-Freedom ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freedom ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Freedom ProjectTests/Pods-Freedom ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BA86940D459888F914A839D /* Pods-Freedom Project-Freedom ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freedom Project-Freedom ProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-Freedom Project-Freedom ProjectUITests/Pods-Freedom Project-Freedom ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C070DA0B8D5AB6BCDD0F4DE /* Pods_Freedom_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freedom_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33E65C6508652195492DB44 /* Pods-Freedom Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freedom Project.debug.xcconfig"; path = "Target Support Files/Pods-Freedom Project/Pods-Freedom Project.debug.xcconfig"; sourceTree = "<group>"; };
+		A3A67E5E18015971C64BA9D6 /* Pods_Freedom_Project_Freedom_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Freedom_Project_Freedom_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80AA2DF4929EC6DD79420DA /* Pods-Freedom Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Freedom Project.release.xcconfig"; path = "Target Support Files/Pods-Freedom Project/Pods-Freedom Project.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		054B3F472CDF7B22006D2675 /* Exceptions for "Freedom Project" folder in "Freedom Project" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 054B3F1E2CDF7B1F006D2675 /* Freedom Project */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		054B3F212CDF7B1F006D2675 /* Freedom Project */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				054B3F472CDF7B22006D2675 /* Exceptions for "Freedom Project" folder in "Freedom Project" target */,
+			);
+			path = "Freedom Project";
+			sourceTree = "<group>";
+		};
+		054B3F382CDF7B22006D2675 /* Freedom ProjectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Freedom ProjectTests";
+			sourceTree = "<group>";
+		};
+		054B3F422CDF7B22006D2675 /* Freedom ProjectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Freedom ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054B3F1C2CDF7B1F006D2675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F8841ED3DD5459CC53FA6D /* Pods_Freedom_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054B3F322CDF7B22006D2675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E1B720E0CCA46F6C092B2F /* Pods_Freedom_ProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054B3F3C2CDF7B22006D2675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E758E13F1ED6114A5DE603F5 /* Pods_Freedom_Project_Freedom_ProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054B3F162CDF7B1F006D2675 = {
+			isa = PBXGroup;
+			children = (
+				054B3F212CDF7B1F006D2675 /* Freedom Project */,
+				054B3F382CDF7B22006D2675 /* Freedom ProjectTests */,
+				054B3F422CDF7B22006D2675 /* Freedom ProjectUITests */,
+				054B3F202CDF7B1F006D2675 /* Products */,
+				6FF04C8F9D26516747D7CE99 /* Pods */,
+				46048FA28C8D8A2C0EA22977 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		054B3F202CDF7B1F006D2675 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054B3F1F2CDF7B1F006D2675 /* Freedom Project.app */,
+				054B3F352CDF7B22006D2675 /* Freedom ProjectTests.xctest */,
+				054B3F3F2CDF7B22006D2675 /* Freedom ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46048FA28C8D8A2C0EA22977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05FAAD21C0C8167B9599D9AD /* Pods_Freedom_Project.framework */,
+				A3A67E5E18015971C64BA9D6 /* Pods_Freedom_Project_Freedom_ProjectUITests.framework */,
+				9C070DA0B8D5AB6BCDD0F4DE /* Pods_Freedom_ProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF04C8F9D26516747D7CE99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A33E65C6508652195492DB44 /* Pods-Freedom Project.debug.xcconfig */,
+				C80AA2DF4929EC6DD79420DA /* Pods-Freedom Project.release.xcconfig */,
+				0F47A08876AA437C51F74FE6 /* Pods-Freedom Project-Freedom ProjectUITests.debug.xcconfig */,
+				7BA86940D459888F914A839D /* Pods-Freedom Project-Freedom ProjectUITests.release.xcconfig */,
+				5CBECE7F4A2D153C69C7535C /* Pods-Freedom ProjectTests.debug.xcconfig */,
+				7182D074860A0D9BDCEC34CA /* Pods-Freedom ProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054B3F1E2CDF7B1F006D2675 /* Freedom Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054B3F482CDF7B22006D2675 /* Build configuration list for PBXNativeTarget "Freedom Project" */;
+			buildPhases = (
+				C7661493B734FF5FB6E859CE /* [CP] Check Pods Manifest.lock */,
+				054B3F1B2CDF7B1F006D2675 /* Sources */,
+				054B3F1C2CDF7B1F006D2675 /* Frameworks */,
+				054B3F1D2CDF7B1F006D2675 /* Resources */,
+				EA0A172697E701AE841A0EF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				054B3F212CDF7B1F006D2675 /* Freedom Project */,
+			);
+			name = "Freedom Project";
+			productName = "Freedom Project";
+			productReference = 054B3F1F2CDF7B1F006D2675 /* Freedom Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		054B3F342CDF7B22006D2675 /* Freedom ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054B3F4D2CDF7B22006D2675 /* Build configuration list for PBXNativeTarget "Freedom ProjectTests" */;
+			buildPhases = (
+				13D667E7CDB863E2D590E647 /* [CP] Check Pods Manifest.lock */,
+				054B3F312CDF7B22006D2675 /* Sources */,
+				054B3F322CDF7B22006D2675 /* Frameworks */,
+				054B3F332CDF7B22006D2675 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054B3F372CDF7B22006D2675 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				054B3F382CDF7B22006D2675 /* Freedom ProjectTests */,
+			);
+			name = "Freedom ProjectTests";
+			productName = "Freedom ProjectTests";
+			productReference = 054B3F352CDF7B22006D2675 /* Freedom ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		054B3F3E2CDF7B22006D2675 /* Freedom ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054B3F502CDF7B22006D2675 /* Build configuration list for PBXNativeTarget "Freedom ProjectUITests" */;
+			buildPhases = (
+				61B0FFC10F32854011DC45EE /* [CP] Check Pods Manifest.lock */,
+				054B3F3B2CDF7B22006D2675 /* Sources */,
+				054B3F3C2CDF7B22006D2675 /* Frameworks */,
+				054B3F3D2CDF7B22006D2675 /* Resources */,
+				4467C61E51A3EA785E2C6948 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				054B3F412CDF7B22006D2675 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				054B3F422CDF7B22006D2675 /* Freedom ProjectUITests */,
+			);
+			name = "Freedom ProjectUITests";
+			productName = "Freedom ProjectUITests";
+			productReference = 054B3F3F2CDF7B22006D2675 /* Freedom ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054B3F172CDF7B1F006D2675 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					054B3F1E2CDF7B1F006D2675 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					054B3F342CDF7B22006D2675 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 054B3F1E2CDF7B1F006D2675;
+					};
+					054B3F3E2CDF7B22006D2675 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 054B3F1E2CDF7B1F006D2675;
+					};
+				};
+			};
+			buildConfigurationList = 054B3F1A2CDF7B1F006D2675 /* Build configuration list for PBXProject "Freedom Project" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 054B3F162CDF7B1F006D2675;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 054B3F202CDF7B1F006D2675 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				054B3F1E2CDF7B1F006D2675 /* Freedom Project */,
+				054B3F342CDF7B22006D2675 /* Freedom ProjectTests */,
+				054B3F3E2CDF7B22006D2675 /* Freedom ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054B3F1D2CDF7B1F006D2675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054B3F332CDF7B22006D2675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054B3F3D2CDF7B22006D2675 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D667E7CDB863E2D590E647 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Freedom ProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4467C61E51A3EA785E2C6948 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Freedom Project-Freedom ProjectUITests/Pods-Freedom Project-Freedom ProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Freedom Project-Freedom ProjectUITests/Pods-Freedom Project-Freedom ProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Freedom Project-Freedom ProjectUITests/Pods-Freedom Project-Freedom ProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61B0FFC10F32854011DC45EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Freedom Project-Freedom ProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7661493B734FF5FB6E859CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Freedom Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0A172697E701AE841A0EF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Freedom Project/Pods-Freedom Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Freedom Project/Pods-Freedom Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Freedom Project/Pods-Freedom Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054B3F1B2CDF7B1F006D2675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054B3F312CDF7B22006D2675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		054B3F3B2CDF7B22006D2675 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		054B3F372CDF7B22006D2675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054B3F1E2CDF7B1F006D2675 /* Freedom Project */;
+			targetProxy = 054B3F362CDF7B22006D2675 /* PBXContainerItemProxy */;
+		};
+		054B3F412CDF7B22006D2675 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 054B3F1E2CDF7B1F006D2675 /* Freedom Project */;
+			targetProxy = 054B3F402CDF7B22006D2675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		054B3F492CDF7B22006D2675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33E65C6508652195492DB44 /* Pods-Freedom Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Freedom Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobydev-Academy.Freedom-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		054B3F4A2CDF7B22006D2675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80AA2DF4929EC6DD79420DA /* Pods-Freedom Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Freedom Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobydev-Academy.Freedom-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		054B3F4B2CDF7B22006D2675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		054B3F4C2CDF7B22006D2675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		054B3F4E2CDF7B22006D2675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CBECE7F4A2D153C69C7535C /* Pods-Freedom ProjectTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobydev-Academy.Freedom-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freedom Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Freedom Project";
+			};
+			name = Debug;
+		};
+		054B3F4F2CDF7B22006D2675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7182D074860A0D9BDCEC34CA /* Pods-Freedom ProjectTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobydev-Academy.Freedom-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freedom Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Freedom Project";
+			};
+			name = Release;
+		};
+		054B3F512CDF7B22006D2675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F47A08876AA437C51F74FE6 /* Pods-Freedom Project-Freedom ProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobydev-Academy.Freedom-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Freedom Project";
+			};
+			name = Debug;
+		};
+		054B3F522CDF7B22006D2675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA86940D459888F914A839D /* Pods-Freedom Project-Freedom ProjectUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobydev-Academy.Freedom-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Freedom Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054B3F1A2CDF7B1F006D2675 /* Build configuration list for PBXProject "Freedom Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054B3F4B2CDF7B22006D2675 /* Debug */,
+				054B3F4C2CDF7B22006D2675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054B3F482CDF7B22006D2675 /* Build configuration list for PBXNativeTarget "Freedom Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054B3F492CDF7B22006D2675 /* Debug */,
+				054B3F4A2CDF7B22006D2675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054B3F4D2CDF7B22006D2675 /* Build configuration list for PBXNativeTarget "Freedom ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054B3F4E2CDF7B22006D2675 /* Debug */,
+				054B3F4F2CDF7B22006D2675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		054B3F502CDF7B22006D2675 /* Build configuration list for PBXNativeTarget "Freedom ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054B3F512CDF7B22006D2675 /* Debug */,
+				054B3F522CDF7B22006D2675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054B3F172CDF7B1F006D2675 /* Project object */;
+}
